@@ -1,0 +1,27 @@
+{
+  "name": "localstorage-filesystem",
+  "version": "1.0.0",
+  "description": "Filesystem in browser localstorage.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rmdir /s /q lib",
+    "test": "ts-node test/index.test.ts"
+  },
+  "keywords": [
+    "localstorage"
+  ],
+  "author": "Potat05",
+  "license": "MIT",
+  "dependencies": {
+    "@types/aes-js": "^3.1.1",
+    "@types/pako": "^2.0.0",
+    "aes-js": "^3.1.2",
+    "pako": "^2.1.0",
+    "scrypt-js": "^3.0.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
